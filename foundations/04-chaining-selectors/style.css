@@ -1,0 +1,12 @@
+:root
+{
+    --pixel-value: 200px;
+}
+.avatar.proportioned{
+    width: 300px;
+    height: auto;
+}
+.avatar.distorted{
+    width: var(--pixel-value);
+    height: calc(var(--pixel-value)* 2);
+}
